@@ -1,0 +1,74 @@
+/*.weather-widget {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sidebar {
+  margin-bottom: 20px;
+}
+
+.forecast-info h3 {
+  font-size: 1.5rem;
+}
+
+.forecast-info p {
+  margin: 5px 0;
+}
+
+img {
+  width: 50px;
+}
+
+.error {
+  color: red;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.background-clouds {
+  /* Add background cloud effects as needed *
+}*/
+
+.weather-widget {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.forecast-item {
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+

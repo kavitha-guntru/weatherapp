@@ -1,3 +1,18 @@
+.app {
+  display: flex;               /* Use flexbox for centering */
+  flex-direction: column;     /* Stack items vertically */
+  justify-content: center;     /* Center items vertically */
+  align-items: center;         /* Center items horizontally */
+  height: 100vh;              /* Take full height of the viewport */
+  text-align: center;         /* Center text */
+  background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
+h1 {
+  margin-bottom: 20px;       /* Space between title and widget */
+}
+
+/* If you have other styles for .App, ensure they are compatible */
 .App {
   text-align: center;
 }
