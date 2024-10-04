@@ -87,10 +87,7 @@ const WeatherWidget = () => {
           <h3>{dayData.date}</h3>
           <p>{dayData.description}</p>
           <p>Temperature: {dayData.tempMin}°C - {dayData.tempMax}°C</p>
-          <img
-            src={`https://openweathermap.org/img/w/${dayData.icon}.png`}
-            alt="Weather icon"
-          />
+         
         </div>
       );
     });
@@ -106,6 +103,7 @@ const WeatherWidget = () => {
     <div className="weather-widget">
       <div className="content">
         <form>
+       
           <input
             type="text"
             value={city}
@@ -124,3 +122,4 @@ const WeatherWidget = () => {
 };
 
 export default WeatherWidget;
+
